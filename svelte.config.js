@@ -12,6 +12,7 @@ export default {
         alias: {
             $assets: "./src/lib/assets",
             $components: "./src/lib/components",
+            $features: "./src/lib/features",
             $shared: "./src/lib/shared",
             $types: "./src/lib/types",
         },
