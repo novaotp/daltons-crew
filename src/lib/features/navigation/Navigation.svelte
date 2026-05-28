@@ -8,7 +8,12 @@
         href: ResolvedPathname;
     };
 
-    const links: Link[] = [];
+    const links: Link[] = [
+        {
+            label: "Slanders",
+            href: "/slanders",
+        },
+    ];
 </script>
 
 <Sheet.Root>
