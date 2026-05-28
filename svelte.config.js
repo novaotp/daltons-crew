@@ -11,6 +11,9 @@ export default {
         adapter: adapter(),
         alias: {
             $assets: "./src/lib/assets",
+            $components: "./src/lib/components",
+            $shared: "./src/lib/shared",
+            $types: "./src/lib/types",
         },
     },
 };
