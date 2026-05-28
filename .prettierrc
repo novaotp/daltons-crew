@@ -1,0 +1,26 @@
+{
+    "useTabs": false,
+    "singleQuote": false,
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "printWidth": 100,
+    "semi": true,
+    "tailwindStylesheet": "./src/routes/layout.css",
+    "importOrderSeparation": false,
+    "importOrderSideEffects": false,
+    "importOrder": ["<THIRD_PARTY_MODULES>", "<BUILTIN_MODULES>", "^\\$.*", "^[./]"],
+    "importOrderSortSpecifiers": true,
+    "plugins": [
+        "prettier-plugin-svelte",
+        "prettier-plugin-tailwindcss",
+        "@trivago/prettier-plugin-sort-imports"
+    ],
+    "overrides": [
+        {
+            "files": "*.svelte",
+            "options": {
+                "parser": "svelte"
+            }
+        }
+    ]
+}
