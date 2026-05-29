@@ -1,0 +1,35 @@
+services:
+  app:
+    container_name: dev-tdc-app
+    build: .
+    env_file: .env
+    ports:
+      - 5173:5173
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /app
+          ignore:
+            - node_modules
+
+        - action: sync+restart
+          path: svelte.config.js
+          target: /app/svelte.config.js
+        - action: sync+restart
+          path: vite.config.ts
+          target: /app/vite.config.ts
+        - action: sync+restart
+          path: tsconfig.json
+          target: /app/tsconfig.json
+        - action: sync+restart
+          path: .env
+          target: /app/.env
+
+        - action: rebuild
+          path: package.json
+        - action: rebuild
+          path: package-lock.json
+    depends_on:
+      db:
+        condition: service_healthy

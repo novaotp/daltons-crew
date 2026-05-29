@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-> You must have NodeJS v24+ installed.
+> You must have NodeJS v24+ and Docker Compose installed.
 
 ### Development
 
@@ -14,10 +14,23 @@
     npm install
     ```
 
-2. Run the development server.
+2. Create a `.env` file based on `.env.example`.
 
     ```sh
-    npm run dev
+    cp .env.example .env
     ```
 
-3. Open the website at http://localhost:5173.
+3. Run the services using `docker compose`.
+
+    ```sh
+    # Start the container
+    docker compose up --watch --build
+
+    # Stop the container
+    docker compose stop
+
+    # Remove everything
+    docker compose down --remove-orphans
+    ```
+
+4. Open your browser at http://localhost:5173.

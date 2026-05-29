@@ -1,0 +1,27 @@
+node_modules
+
+# Output
+/.svelte-kit
+/build
+
+# .env files
+.env
+.env.*
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Docker
+.dockerignore
+Dockerfile
+
+# VSCode config
+.vscode
+
+# Other files
+README.md
+.npmrc
+.prettierrc
+eslint.config.js
