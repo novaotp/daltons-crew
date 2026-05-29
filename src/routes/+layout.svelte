@@ -17,6 +17,7 @@
     import favicon96 from "$assets/favicon/favicon-96x96.png";
     import manifest from "$assets/favicon/manifest.json?url";
     import msIcon144 from "$assets/favicon/ms-icon-144x144.png";
+    import { Toaster, Tooltip } from "$components";
     import { Navigation } from "$features/navigation";
 
     let { children } = $props();
@@ -41,18 +42,22 @@
 </svelte:head>
 
 <ModeWatcher />
-<div class="flex flex-col">
-    <header class="relative h-20 w-full grid place-items-center p-4">
-        <nav class="h-full max-w-5xl w-full flex justify-between items-center">
-            <a href={resolve("/")} aria-label="Go to home page" class="shrink-0 h-full">
-                <enhanced:img
-                    src="$assets/logo/logo.webp"
-                    alt="TDC Logo"
-                    class="h-12 w-auto object-contain"
-                />
-            </a>
-            <Navigation />
-        </nav>
-    </header>
-    {@render children()}
-</div>
+<Toaster />
+
+<Tooltip.Provider>
+    <div class="flex flex-col">
+        <header class="relative h-20 w-full grid place-items-center p-4">
+            <nav class="h-full max-w-5xl w-full flex justify-between items-center">
+                <a href={resolve("/")} aria-label="Go to home page" class="shrink-0 h-full">
+                    <enhanced:img
+                        src="$assets/logo/logo.webp"
+                        alt="TDC Logo"
+                        class="h-12 w-auto object-contain"
+                    />
+                </a>
+                <Navigation />
+            </nav>
+        </header>
+        {@render children()}
+    </div>
+</Tooltip.Provider>
