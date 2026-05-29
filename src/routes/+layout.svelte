@@ -1,5 +1,6 @@
 <script lang="ts">
     import "./layout.css";
+    import { ModeWatcher } from "mode-watcher";
     import { resolve } from "$app/paths";
     import androidIcon192 from "$assets/favicon/android-icon-192x192.png";
     import appleIcon57 from "$assets/favicon/apple-icon-57x57.png";
@@ -39,6 +40,7 @@
     <meta name="msapplication-TileImage" content={msIcon144} />
 </svelte:head>
 
+<ModeWatcher />
 <div class="flex flex-col">
     <header class="relative h-20 w-full grid place-items-center p-4">
         <nav class="h-full max-w-5xl w-full flex justify-between items-center">
