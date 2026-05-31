@@ -51,6 +51,7 @@
     "dependencies": {
         "@prisma/adapter-pg": "^7.8.0",
         "@prisma/client": "^7.8.0",
+        "@tanstack/table-core": "^8.21.3",
         "@thisux/sveltednd": "^0.4.1",
         "dotenv": "^17.4.2",
         "mode-watcher": "^1.1.0",
