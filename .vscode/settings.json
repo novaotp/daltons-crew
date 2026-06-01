@@ -1,5 +1,8 @@
 {
     "files.associations": {
         "*.css": "tailwindcss"
+    },
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
     }
 }

@@ -1,0 +1,16 @@
+model LeagueStat {
+    // Primary key
+    id String @id @default(cuid(2))
+
+    // Foreign keys
+    memberId String @unique
+    member   Member @relation(fields: [memberId], references: [id])
+
+    // Attributes
+    skill      Json
+    preference Json
+
+    // Timestamps
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}

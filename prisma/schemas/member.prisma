@@ -1,0 +1,17 @@
+model Member {
+    // Primary key
+    id String @id @default(cuid(2))
+
+    // Attributes
+    name     String
+    nickname String
+
+    // Timestamps
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    // Opposite relations
+    leagueStats LeagueStat?
+
+    @@unique([name, nickname])
+}

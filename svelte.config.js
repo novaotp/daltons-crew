@@ -13,6 +13,7 @@ export default {
             $assets: "./src/lib/assets",
             $components: "./src/lib/components",
             $features: "./src/lib/features",
+            $providers: "./src/lib/providers",
             $shared: "./src/lib/shared",
             $types: "./src/lib/types",
         },

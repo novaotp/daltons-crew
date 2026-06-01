@@ -20,7 +20,13 @@
     cp .env.example .env
     ```
 
-3. Run the services using `docker compose`.
+3. Generate the prisma client.
+
+    ```sh
+    npx prisma generate
+    ```
+
+4. Run the services using `docker compose`.
 
     ```sh
     # Start the container
@@ -33,4 +39,36 @@
     docker compose down --remove-orphans
     ```
 
-4. Open your browser at http://localhost:5173.
+5. (Optional) Seed the database.
+
+    > First, create the data inside `prisma/data.json` with the following structure.
+    >
+    > ```json
+    > [
+    >     {
+    >         "nickname": "johndoe304",
+    >         "name": "John",
+    >         "skill": {
+    >             "top": 9,
+    >             "jungle": 7,
+    >             "mid": 3,
+    >             "adc": 4,
+    >             "support": 3
+    >         },
+    >         "preference": {
+    >             "top": 1,
+    >             "jungle": 2,
+    >             "mid": 4,
+    >             "adc": 3,
+    >             "support": 5
+    >         }
+    >     }
+    >     // Other players...
+    > ]
+    > ```
+
+    ```sh
+    npx prisma db seed
+    ```
+
+6. Open your browser at http://localhost:5173.
