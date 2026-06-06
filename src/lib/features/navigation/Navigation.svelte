@@ -11,6 +11,10 @@
 
     const links: Link[] = [
         {
+            label: "League of Legends",
+            href: "/games/league",
+        },
+        {
             label: "Slanders",
             href: "/slanders",
         },
