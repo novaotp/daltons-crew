@@ -1,0 +1,218 @@
+[
+    {
+        "nickname": "Nova",
+        "name": "Sajidur",
+        "skill": {
+            "top": 10,
+            "jungle": 10,
+            "mid": 9,
+            "adc": 10,
+            "support": 9
+        },
+        "preference": {
+            "top": 1,
+            "jungle": 3,
+            "mid": 4,
+            "adc": 2,
+            "support": 5
+        }
+    },
+    {
+        "nickname": "Senku",
+        "name": "Loris",
+        "skill": {
+            "top": 9,
+            "jungle": 9,
+            "mid": 10,
+            "adc": 10,
+            "support": 10
+        },
+        "preference": {
+            "top": 4,
+            "jungle": 5,
+            "mid": 1,
+            "adc": 3,
+            "support": 2
+        }
+    },
+    {
+        "nickname": "Kry",
+        "name": "Krystian",
+        "skill": {
+            "top": 4,
+            "jungle": 2,
+            "mid": 3,
+            "adc": 3,
+            "support": 2
+        },
+        "preference": {
+            "top": 1,
+            "jungle": 4,
+            "mid": 3,
+            "adc": 2,
+            "support": 5
+        }
+    },
+    {
+        "nickname": "Baylang",
+        "name": "Diogo",
+        "skill": {
+            "top": 7,
+            "jungle": 7,
+            "mid": 8,
+            "adc": 9,
+            "support": 6
+        },
+        "preference": {
+            "top": 4,
+            "jungle": 3,
+            "mid": 1,
+            "adc": 2,
+            "support": 5
+        }
+    },
+    {
+        "nickname": "Enderastro",
+        "name": "Leny",
+        "skill": {
+            "top": 3,
+            "jungle": 5,
+            "mid": 4,
+            "adc": 1,
+            "support": 2
+        },
+        "preference": {
+            "top": 3,
+            "jungle": 1,
+            "mid": 2,
+            "adc": 5,
+            "support": 4
+        }
+    },
+    {
+        "nickname": "Quick",
+        "name": "Loïk",
+        "skill": {
+            "top": 1,
+            "jungle": 1,
+            "mid": 1,
+            "adc": 1,
+            "support": 1
+        },
+        "preference": {
+            "top": 4,
+            "jungle": 5,
+            "mid": 3,
+            "adc": 1,
+            "support": 2
+        }
+    },
+    {
+        "nickname": "Kymoz",
+        "name": "Luca",
+        "skill": {
+            "top": 6,
+            "jungle": 5,
+            "mid": 5,
+            "adc": 1,
+            "support": 1
+        },
+        "preference": {
+            "top": 1,
+            "jungle": 3,
+            "mid": 2,
+            "adc": 4,
+            "support": 5
+        }
+    },
+    {
+        "nickname": "Nana",
+        "name": "Yacine",
+        "skill": {
+            "top": 4,
+            "jungle": 1,
+            "mid": 6,
+            "adc": 3,
+            "support": 2
+        },
+        "preference": {
+            "top": 2,
+            "jungle": 3,
+            "mid": 1,
+            "adc": 4,
+            "support": 5
+        }
+    },
+    {
+        "nickname": "Alfix",
+        "name": "Kewin",
+        "skill": {
+            "top": 8,
+            "jungle": 6,
+            "mid": 7,
+            "adc": 4,
+            "support": 5
+        },
+        "preference": {
+            "top": 1,
+            "jungle": 3,
+            "mid": 2,
+            "adc": 4,
+            "support": 5
+        }
+    },
+    {
+        "nickname": "Mémé",
+        "name": "Mélysse",
+        "skill": {
+            "top": 2,
+            "jungle": 2,
+            "mid": 4,
+            "adc": 6,
+            "support": 5
+        },
+        "preference": {
+            "top": 4,
+            "jungle": 5,
+            "mid": 2,
+            "adc": 1,
+            "support": 3
+        }
+    },
+    {
+        "nickname": "Peep",
+        "name": "Evan",
+        "skill": {
+            "top": 9,
+            "jungle": 10,
+            "mid": 10,
+            "adc": 9,
+            "support": 9
+        },
+        "preference": {
+            "top": 3,
+            "jungle": 1,
+            "mid": 2,
+            "adc": 5,
+            "support": 4
+        }
+    },
+    {
+        "nickname": "RGX Milk",
+        "name": "Riccardo",
+        "skill": {
+            "top": 2,
+            "jungle": 1,
+            "mid": 4,
+            "adc": 4,
+            "support": 3
+        },
+        "preference": {
+            "top": 4,
+            "jungle": 5,
+            "mid": 2,
+            "adc": 1,
+            "support": 3
+        }
+    }
+]

@@ -1,9 +1,23 @@
 <script lang="ts">
-    import slanderVideo1 from "$assets/slanders/1.mp4";
-    import slanderVideo3 from "$assets/slanders/3.mp4";
-    import slanderVideo4 from "$assets/slanders/4.mp4";
+
+
+    import slanderVideo1 from "@daltons-crew/assets/slanders/1.mp4";
+import slanderVideo3 from "@daltons-crew/assets/slanders/3.mp4";
+import slanderVideo4 from "@daltons-crew/assets/slanders/4.mp4";
+
+
+
+
+
+
+
+
+    
+    
 
     const videos = [slanderVideo4, slanderVideo3, "MISSING", slanderVideo1];
+
+
 </script>
 
 <svelte:head>

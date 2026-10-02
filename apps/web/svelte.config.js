@@ -13,12 +13,7 @@ export default {
     kit: {
         adapter: adapter(),
         alias: {
-            $assets: "./src/lib/assets",
-            $components: "./src/lib/components",
-            $features: "./src/lib/features",
-            $providers: "./src/lib/providers",
-            $shared: "./src/lib/shared",
-            $types: "./src/lib/types",
+            $features: "./src/features",
         },
         experimental: {
             remoteFunctions: true,

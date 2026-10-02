@@ -17,7 +17,7 @@
     import favicon96 from "$assets/favicon/favicon-96x96.png";
     import manifest from "$assets/favicon/manifest.json?url";
     import msIcon144 from "$assets/favicon/ms-icon-144x144.png";
-    import { Toaster, Tooltip } from "$components";
+    import { Toaster, Tooltip } from "@daltons-crew/ui";
     import { Navigation } from "$features/navigation";
 
     let { children } = $props();
